@@ -1,0 +1,41 @@
+{
+  "name": "inversify-basic-example",
+  "version": "1.0.0",
+  "description": "A basic example that showcases how to setup InversifyJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inversify/inversify-basic-example.git"
+  },
+  "keywords": [
+    "inversifyjs",
+    "basic",
+    "example",
+    "dependency",
+    "injection",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Remo H. Jansen <remo.jansen@wolksoftware.com> (http://www.remojansen.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inversify/inversify-basic-example/issues"
+  },
+  "homepage": "https://github.com/inversify/inversify-basic-example#readme",
+  "dependencies": {
+    "inversify": "^2.0.0-rc.13",
+    "reflect-metadata": "^0.1.8"
+  },
+  "devDependencies": {
+    "@types/inversify": "^2.0.30",
+    "gulp": "^3.9.1",
+    "gulp-tslint": "^6.1.1",
+    "gulp-typescript": "^2.13.6",
+    "run-sequence": "^1.2.2",
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.2"
+  }
+}
