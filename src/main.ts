@@ -4,8 +4,9 @@ import Warrior from "./interfaces/warrior";
 import Weapon from "./interfaces/weapon";
 import TAG from "./constants/tags";
 
-let ninja = kernel.get<Warrior>(SERVICE_IDENTIFIER.WARRIOR).getTagedNammed(TAG.CHINESE);
-let samurai = kernel.get<Weapon>(SERVICE_IDENTIFIER.WARRIOR).getTagedNammed(TAG.JAPANESE);
+function getWarrior(tag: string) {
+    return kernel.get<Warrior>(SERVICE_IDENTIFIER.WARRIOR).getTagedNammed(tag);
+}
 
-console.log(ninja.wepon.name);
-console.log(samurai.wepon.name);
+console.log(getWarrior(TAG.CHINESE));
+console.log(getWarrior(TAG.JAPANESE));

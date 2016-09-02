@@ -13,7 +13,7 @@ let kernel = new Kernel();
 
 kernel.bind<Warrior>(SERVICE_IDENTIFIER.WARRIOR).to(Ninja).whenTargetNamed(TAG.CHINESE);
 kernel.bind<Warrior>(SERVICE_IDENTIFIER.WARRIOR).to(Samurai).whenTargetNamed(TAG.JAPANESE);
-kernel.bind<Weapon>(SERVICE_IDENTIFIER.WEAPON).to(Shuriken).whenTargetNamed(TAG.CHINESE);
-kernel.bind<Weapon>(SERVICE_IDENTIFIER.WEAPON).to(Katana).whenTargetNamed(TAG.JAPANESE);
+kernel.bind<Weapon>(SERVICE_IDENTIFIER.WEAPON).to(Shuriken).whenParentNamed(TAG.CHINESE);
+kernel.bind<Weapon>(SERVICE_IDENTIFIER.WEAPON).to(Katana).whenParentNamed(TAG.JAPANESE);
 
 export default kernel;
