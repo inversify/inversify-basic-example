@@ -1,4 +1,10 @@
 # inversify-basic-example
+[![Join the chat at https://gitter.im/inversify/inversify-basic-example](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/inversify/inversify-basic-example?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://secure.travis-ci.org/inversify/inversify-basic-example.svg?branch=master)](https://travis-ci.org/inversify/inversify-basic-example)
+[![Dependencies](https://david-dm.org/inversify/inversify-basic-example.svg)](https://david-dm.org/inversify/inversify-basic-example#info=dependencies)
+[![img](https://david-dm.org/inversify/inversify-basic-example/dev-status.svg)](https://david-dm.org/inversify/inversify-basic-example/#info=devDependencies)
+[![img](https://david-dm.org/inversify/inversify-basic-example/peer-status.svg)](https://david-dm.org/inversify/inversify-basic-example/#info=peerDependenciess)
+
 A basic example that showcases how to setup InversifyJS
 
 This is a very basic InversifyJS example. 
@@ -12,8 +18,6 @@ This program declares:
 The warriors own a weapon and are tagged with some metadata.
 
 ![](uml.png)
-
-The metadata is used to link a warrior to a civilization: `japanese` or `chinese`.
 
 We use some constraints `whenTargetNamed` and `whenParentNamed` to indicate which
 `Weapon` should be injected into and implementation of `Warrior` and which implementation
