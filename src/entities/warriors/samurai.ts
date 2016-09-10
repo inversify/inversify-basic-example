@@ -10,7 +10,7 @@ class Samurai implements Warrior {
     public constructor(
         @inject(SERVICE_IDENTIFIER.WEAPON) weapon: Weapon
     ) {
-        name = "Samurai";
+        this.name = "Samurai";
         this.weapon = weapon;
     }
 }

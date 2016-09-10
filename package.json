@@ -30,7 +30,6 @@
     "reflect-metadata": "^0.1.8"
   },
   "devDependencies": {
-    "@types/inversify": "^2.0.30",
     "gulp": "^3.9.1",
     "gulp-tslint": "^6.1.1",
     "gulp-typescript": "^2.13.6",

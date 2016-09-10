@@ -5,7 +5,7 @@ import { injectable } from "inversify";
 class Katana implements Weapon {
     public name: string;
     public constructor() {
-        name = "Katana";
+        this.name = "Katana";
     }
 }
 
