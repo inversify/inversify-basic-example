@@ -1,5 +1,5 @@
 # inversify-basic-example
-[![Join the chat at https://gitter.im/inversify/inversify-basic-example](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/inversify/inversify-basic-example?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/inversify/inversify-basic-example](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/inversify/InversifyJS)
 [![Build Status](https://secure.travis-ci.org/inversify/inversify-basic-example.svg?branch=master)](https://travis-ci.org/inversify/inversify-basic-example)
 [![Dependencies](https://david-dm.org/inversify/inversify-basic-example.svg)](https://david-dm.org/inversify/inversify-basic-example#info=dependencies)
 [![img](https://david-dm.org/inversify/inversify-basic-example/dev-status.svg)](https://david-dm.org/inversify/inversify-basic-example/#info=devDependencies)
