@@ -58,3 +58,12 @@ At this point you are ready to run the example:
 ```
 $ node dist/main.js
 ```
+
+You should see the following in console:
+
+```
+FIGHT!
+                Ninja (Shuriken)
+                vs
+                Samurai (Katana)
+```
