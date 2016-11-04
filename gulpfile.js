@@ -30,7 +30,7 @@ gulp.task("build", function() {
     return gulp.src([
         "src/**/*.ts"
     ])
-    .pipe(tsc(tstProject))
+    .pipe(tstProject())
     .on("error", function (err) {
         process.exit(1);
     })
