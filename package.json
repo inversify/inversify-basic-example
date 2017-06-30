@@ -33,7 +33,7 @@
     "gulp": "^3.9.1",
     "gulp-tslint": "^8.0.0",
     "gulp-typescript": "^3.0.0",
-    "run-sequence": "^1.2.2",
+    "run-sequence": "^2.0.0",
     "tslint": "^5.0.0",
     "typescript": "^2.0.2"
   }
