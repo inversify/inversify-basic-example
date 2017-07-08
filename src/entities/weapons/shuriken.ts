@@ -1,5 +1,6 @@
-import Weapon from "../../interfaces/weapon";
 import { injectable } from "inversify";
+
+import Weapon from "../../interfaces/weapon";
 
 @injectable()
 class Shuriken implements Weapon {
