@@ -35,6 +35,6 @@
     "gulp-typescript": "3.2.1",
     "run-sequence": "2.0.0",
     "tslint": "5.5.0",
-    "typescript": "2.4.1"
+    "typescript": "2.4.2"
   }
 }
