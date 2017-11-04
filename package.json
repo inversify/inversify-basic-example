@@ -26,15 +26,15 @@
   },
   "homepage": "https://github.com/inversify/inversify-basic-example#readme",
   "dependencies": {
-    "inversify": "4.3.0",
+    "inversify": "4.5.1",
     "reflect-metadata": "0.1.10"
   },
   "devDependencies": {
     "gulp": "3.9.1",
     "gulp-tslint": "8.1.1",
-    "gulp-typescript": "3.2.2",
+    "gulp-typescript": "3.2.3",
     "run-sequence": "2.2.0",
     "typescript": "2.6.1",
-    "tslint": "5.7.0"
+    "tslint": "5.8.0"
   }
 }
