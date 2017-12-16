@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/inversify/inversify-basic-example#readme",
   "dependencies": {
-    "inversify": "4.6.1",
+    "inversify": "4.7.0",
     "reflect-metadata": "0.1.10"
   },
   "devDependencies": {
