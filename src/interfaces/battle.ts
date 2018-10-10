@@ -1,5 +1,3 @@
-interface Battle {
+export interface Battle {
     fight(): string;
 }
-
-export default Battle;

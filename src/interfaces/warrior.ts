@@ -1,8 +1,6 @@
-import Weapon from "./weapon";
+import { Weapon } from "./weapon";
 
-interface Warrior {
+export interface Warrior {
     name: string;
     weapon: Weapon;
 }
-
-export default Warrior;
