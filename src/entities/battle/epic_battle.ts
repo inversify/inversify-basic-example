@@ -1,12 +1,11 @@
 import { inject, injectable, named } from "inversify";
 
-import Battle from "../../interfaces/battle";
+import { Battle, Warrior } from "../../interfaces";
 import SERVICE_IDENTIFIER from "../../constants/identifiers";
 import TAG from "../../constants/tags";
-import Warrior from "../../interfaces/warrior";
 
 @injectable()
-class EpicBattle implements Battle {
+export class EpicBattle implements Battle {
 
     @inject(SERVICE_IDENTIFIER.WARRIOR) @named(TAG.CHINESE) public warrior1: Warrior;
     @inject(SERVICE_IDENTIFIER.WARRIOR) @named(TAG.JAPANESE) public warrior2: Warrior;
@@ -20,5 +19,3 @@ class EpicBattle implements Battle {
     }
 
 }
-
-export default EpicBattle;

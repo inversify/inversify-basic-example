@@ -1,11 +1,10 @@
 import { inject, injectable } from "inversify";
 
 import SERVICE_IDENTIFIER from "../../constants/identifiers";
-import Warrior from "../../interfaces/warrior";
-import Weapon from "../../interfaces/weapon";
+import { Weapon, Warrior } from "../../interfaces";
 
 @injectable()
-class Samurai implements Warrior {
+export class Samurai implements Warrior {
     public name: string;
     public weapon: Weapon;
     public constructor(
@@ -15,5 +14,3 @@ class Samurai implements Warrior {
         this.weapon = weapon;
     }
 }
-
-export default Samurai;

@@ -1,13 +1,11 @@
 import { injectable } from "inversify";
 
-import Weapon from "../../interfaces/weapon";
+import { Weapon } from "../../interfaces";
 
 @injectable()
-class Shuriken implements Weapon {
+export class Shuriken implements Weapon {
     public name: string;
     public constructor() {
         this.name = "Shuriken";
     }
 }
-
-export default Shuriken;
