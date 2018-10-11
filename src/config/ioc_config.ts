@@ -2,10 +2,10 @@ import "reflect-metadata";
 
 import { Container } from "inversify";
 
-import { 
-  Battle, 
-  Weapon, 
-  Warrior 
+import {
+  Battle,
+  Weapon,
+  Warrior
 } from "../interfaces";
 
 import {
