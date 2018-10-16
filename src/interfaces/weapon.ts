@@ -1,5 +1,3 @@
-interface Weapon {
+export interface Weapon {
     name: string;
 }
-
-export default Weapon;

@@ -2,16 +2,22 @@ import "reflect-metadata";
 
 import { Container } from "inversify";
 
-import Battle from "../interfaces/battle";
-import EpicBattle from "../entities/battle/epic_battle";
-import Katana from "../entities/weapons/katana";
-import Ninja from "../entities/warriors/ninja";
-import Samurai from "../entities/warriors/samurai";
+import {
+  Battle,
+  Weapon,
+  Warrior
+} from "../interfaces";
+
+import {
+  EpicBattle,
+  Katana,
+  Shuriken,
+  Ninja,
+  Samurai
+} from "../entities";
+
 import SERVICE_IDENTIFIER from "../constants/identifiers";
-import Shuriken from "../entities/weapons/shuriken";
 import TAG from "../constants/tags";
-import Warrior from "../interfaces/weapon";
-import Weapon from "../interfaces/weapon";
 
 let container = new Container();
 
