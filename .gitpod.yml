@@ -1,0 +1,5 @@
+tasks:
+- on: init
+  command: npm install && npx gulp && node dist/main.js
+- on: restart
+  command: node dist/main.js

@@ -7,9 +7,9 @@
 
 A basic example that showcases how to setup InversifyJS
 
-This is a very basic InversifyJS example. 
+This is a very basic InversifyJS example.
 
-This program declares: 
+This program declares:
 - Three interfaces `Warrior`, `Weapon` and `Battle`.
 - Two implementations of `Weapon`: `Katana` and `Shuriken`
 - Two implementations of `Warrior`: `Ninja` and `Samurai`
@@ -32,7 +32,11 @@ container.bind<Battle>(SERVICE_IDENTIFIER.BATTLE).to(EpicBattle);
 ```
 
 # How can I run it?
-You can clone it using:
+You can either
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/inversify/inversify-basic-example/blob/master/src/config/ioc_config.ts)
+
+or clone it using:
 
 ```
 $ git clone https://github.com/inversify/inversify-basic-example.git
