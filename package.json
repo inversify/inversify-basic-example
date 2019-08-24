@@ -30,11 +30,12 @@
     "reflect-metadata": "0.1.13"
   },
   "devDependencies": {
-    "gulp": "3.9.1",
-    "gulp-tslint": "8.1.2",
+    "gulp": "4.0.2",
+    "gulp-tslint": "8.1.4",
     "gulp-typescript": "5.0.1",
     "run-sequence": "2.2.1",
-    "typescript": "2.6.2",
-    "tslint": "5.9.1"
+    "tslint": "5.19.0",
+    "typescript": "3.5.3",
+    "updates": "^8.5.3"
   }
 }
