@@ -2,4 +2,3 @@ language: node_js
 node_js:
 - stable
 - 8.8.1
-- 7.10.1
