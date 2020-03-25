@@ -36,6 +36,6 @@
     "run-sequence": "2.2.1",
     "tslint": "5.19.0",
     "typescript": "3.5.3",
-    "updates": "^8.5.3"
+    "updates": "^10.2.6"
   }
 }
